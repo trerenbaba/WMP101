@@ -1,0 +1,49 @@
+.UstDiv {
+  background-color: tomato;
+  width: 200px;
+  inline-size: 300px;
+  block-size: 300px;
+  display: inline-block;
+  border: 5px solid #000;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding: 50px 20px;
+  padding: 10px 7px 6px 9px;
+  margin: 10px;
+
+}
+
+.AltDiv {
+  background-color: tomato;
+  width: 200px;
+  inline-size: 300px;
+  block-size: 300px;
+  display: inline-block;
+}
+
+.UstResim {
+  width: 100%;
+}
+
+.AltResim {
+  width: 250px;
+  height: 250px
+}
+
+*/ #UstImg {
+  width: 100%;
+}
+
+#AltImg {
+  width: 250px;
+  height: 150px;
+}
+
+p {
+  color: rgb(70, 23, 241);
+  background-color: yellow;
+  font-weight: border;
+  height: auto;
+  width: 300px;
+
+}

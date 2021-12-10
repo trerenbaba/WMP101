@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .menuitem{
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #000;
+        }
+        .main{
+            float: left;/*sola yaslama*/
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        .right{
+            background-color: rgb(167, 167, 167);
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+        @media only screen and (max-width:800px){
+            /*tabletler için */
+            .main{
+                width: 80%;
+                padding: 0;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+        @media only screen and (max-width:500px){
+            .menu,.main,.right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <div style="
+    background-color: blanchedalmond;
+    padding: 15px
+    ;text-align: center;">
+        <h1>lorem</h1>
+        <h3>Browser ekranını yeniden boyutlandırma</h3>
+    </div>
+    <div style="overflow: auto;">
+        <div class="menu">
+            <div class="menuitem">Anasayfa</div>
+            <div class="menuitem">Urunlerimiz</div>
+            <div class="menuitem">Galeri</div>
+            <div class="menuitem">İletişim</div>
+        </div>
+        <div class="main">
+            <h2>AnaSayfa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur maiores odit, ex veniam eaque
+                voluptatem, incidunt delectus maxime necessitatibus provident dolor eum blanditiis nam unde officia
+                dolore ipsam! Architecto.
+                Eos earum optio alias suscipit officiis quaerat quam incidunt corporis in consequuntur tenetur,
+                praesentium nemo culpa magni! Fugiat magnam accusamus, quas hic laboriosam eos! Quo repellat quod harum
+                veniam ipsum!</p>
+            <img src="images/picture3.jpg" alt="" style="width: 100%;">
+        </div>
+        <div class="right">
+            <h2>Biz kimiz</h2>
+            <p>Lorem ipsum dolor sit amet </p>
+            <h2>Misyonumuz</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorum blanditiis excepturi officiis
+                incidunt ad provident sit doloribus culpa veritatis? Nulla pariatur laboriosam perspiciatis sunt harum,
+                nostrum accusamus esse aspernatur.
+                Tempore minima tempora optio recusandae consectetur sunt qui! Voluptas, dolor qui tenetur, velit
+                voluptatibus, minima cupiditate alias voluptates impedit numquam temporibus molestiae distinctio cum
+                consectetur eveniet eum perferendis tempora cumque?
+                Dignissimos unde, sit distinctio fuga at quod velit molestiae, deserunt itaque dolore illo hic
+                reprehenderit aut nulla quo est? Corrupti rem omnis dolores deleniti ea maxime autem nobis sint
+                mollitia!</p>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo numquam debitis possimus doloribus enim
+                quibusdam, quidem tempora sed consequatur, id reiciendis totam perspiciatis! Molestias, vel! Dolore sint
+                cum quos facere?
+                Culpa, quibusdam laudantium iste magnam obcaecati quos atque vel iusto, minima, voluptatibus possimus.
+                Quisquam nulla possimus delectus reiciendis maxime quia in recusandae deleniti enim, eligendi, rerum
+                consequatur ipsum molestias aspernatur.</p>
+        </div>
+    </div>
+    <div style="
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    margin-top: 7px;
+    font-size: 12px;
+    "
+    >Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Nihil atque laborum architecto id doloribus ut? Placeat quae
+        aspernatur doloribus quod nemo nesciunt optio soluta. Accusamus velit commodi ab amet unde!</div>
+
+</body>
+
+</html>
